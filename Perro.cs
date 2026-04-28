@@ -30,6 +30,12 @@ class Program
         miPerro.HacerSonido();
         miPerro.Buscar();
 
+        Perro sePerro = new Perro("Chocolate",10,"Pitbull");
+        sePerro.MostarInfo();
+        sePerro.HacerSonido();
+        sePerro.Buscar();
+
         Console.WriteLine("Raza:"+ miPerro.Raza);
+        Console.WriteLine("Raza:"+ sePerro.Raza);
     }
 }
